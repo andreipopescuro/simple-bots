@@ -143,6 +143,16 @@ button:hover {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
+  gap: 10px;
+  font-size: 30px;
+}
+
+.goHomeBtn {
+  background-color: #414245;
+  border-radius: 10px;
+  padding: 10px;
+  font-size: 20px;
 }
 
 @media (min-width: 1000px) {
